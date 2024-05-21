@@ -1,2 +1,7 @@
-# MediBook
-Medibook is an application for Collecting  information that ensures that the medical provider has necessary details for a patient  to prepare for the appointment and provide appropriate health care. 
+# medibook
+
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
