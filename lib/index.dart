@@ -4,3 +4,5 @@ export '/pages/authentication/authentication_widget.dart'
     show AuthenticationWidget;
 export '/book_appointment/book_appointment_widget.dart'
     show BookAppointmentWidget;
+export '/appointment_detail/appointment_detail_widget.dart'
+    show AppointmentDetailWidget;
