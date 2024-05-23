@@ -107,6 +107,18 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               collectionNamePath: ['Appointments'],
             ),
           ),
+        ),
+        FFRoute(
+          name: 'UpdateAppointment',
+          path: '/updateAppointment',
+          builder: (context, params) => UpdateAppointmentWidget(
+            appointmentDocRef: params.getParam(
+              'appointmentDocRef',
+              ParamType.DocumentReference,
+              isList: false,
+              collectionNamePath: ['Appointments'],
+            ),
+          ),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
