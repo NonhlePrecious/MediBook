@@ -40,6 +40,7 @@ dependencies:
   firebase_performance: 0.9.3+16
   firebase_performance_platform_interface: 0.1.4+24
   firebase_performance_web: 0.1.4+24
+  floating_bottom_navigation_bar: 1.5.2
   flutter_animate: 4.1.1+1
   flutter_cache_manager: 3.3.1
   font_awesome_flutter: 10.6.0
@@ -53,6 +54,7 @@ dependencies:
   google_sign_in_web: 0.12.1
   intl: 0.18.1
   json_path: 0.6.2
+  lottie: 2.7.0
   page_transition: 2.1.0
   path_provider: 2.0.14
   path_provider_android: 2.0.25

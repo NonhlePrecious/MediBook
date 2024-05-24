@@ -5,6 +5,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'appointment_detail_model.dart';
 export 'appointment_detail_model.dart';
 
@@ -30,6 +31,9 @@ class _AppointmentDetailWidgetState extends State<AppointmentDetailWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => AppointmentDetailModel());
+
+    // On page load action.
+    SchedulerBinding.instance.addPostFrameCallback((_) async {});
   }
 
   @override
